@@ -24,7 +24,7 @@
                     <form action="{{ route ('comment.store', $tweet->id) }}" method="post">
                         @csrf
                         <textarea name="message" class="textarea textarea-bordered w-full" placeholder="tinggalkan komentar" rows="3"></textarea>
-                        <input type="submit" value="Cocotmu siniin" class="btn btn-primary">
+                        <input type="submit" value="Add Comments" class="btn btn-primary">
                     </form>
                 </div>
             </div>

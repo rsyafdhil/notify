@@ -11,7 +11,7 @@
                 <div class="p-6 text-gray-900 ">
                     @foreach($tweets as $t)
                     <div class="card card-side shadow-xl bg-slate-700 my-5">
-                        <div class="card-body ">
+                        <div class="card-body">
                           <h2 class="text-xl font-bold text-slate-100">{{ $t->user->name }}</h2>
                           <p class="text-slate-100">{{ $t->content }}</p>
                           <div class="text-start">
